@@ -19,8 +19,9 @@
           <div class="pt-24 md:pt-36 lg:pt-52 xl:pt-72 2xl:pt-80 grid md:grid-cols-2">
             <div>
               <div class="space-y-4">
-                <div class="block w-auto md:w-full break-words font-medium text-2xl md:text-7xl text-center md:text-inherit">
-                  <p>Die EffnerApp!</p>
+                <div class="block w-auto md:w-full break-words font-medium text-2xl md:text-6xl md:text-inherit">
+                  <p>Lade dir die EffnerApp jetzt im Play Store herunter und erhalte immer die neusten
+                    Informationen.</p>
                 </div>
 
                 <div class="flex w-auto md:w-full">
@@ -61,6 +62,8 @@
 
 <script>
 import Footer from "../components/Footer";
+import github_badge from "../assets/github_badge.png"
+import github_badge_elephant from "../assets/github_badge_elephant.png"
 
 export default {
   name: 'Home',
@@ -80,10 +83,10 @@ export default {
   computed: {
     githubBadge() {
       if(this.clickCount >= 10) {
-        return '../assets/github_badge_elephant.png'
+        return github_badge_elephant;
       }
 
-      return '../assets/github_badge.png'
+      return github_badge;
     }
   }
 }
