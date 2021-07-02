@@ -3,10 +3,10 @@
     <div class="container mx-auto">
       <div class="flex flex-col min-h-screen py-8 px-3 md:px-0">
         <div class="flex-none">
-          <div class="flex items-stretch w-20 md:w-48 h-20 bg-white rounded-full shadow-xl ml-2 md:ml-0">
+          <div class="flex items-stretch w-20 md:w-48 h-20 bg-white rounded-full shadow-xl ml-5 md:ml-0">
             <div class="self-center">
               <div class="w-20 h-20 p-4">
-                <img alt="logo" src="../assets/logo.png">
+                <img alt="EffnerApp Logo" src="../assets/logo.png">
               </div>
             </div>
             <div class="invisible md:visible self-center font-medium text-xl pr-8">
