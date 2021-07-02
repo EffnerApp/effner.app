@@ -3,7 +3,7 @@
     <div class="container mx-auto">
       <div class="flex flex-col min-h-screen py-8 px-3 md:px-0">
         <div class="flex-none">
-          <div class="flex items-stretch w-20 md:w-48 h-20 bg-white rounded-full shadow-xl ml-5 md:ml-0">
+          <div class="flex items-stretch w-20 md:w-48 h-20 bg-white rounded-full shadow-xl ml-5 md:ml-0" @click="clickLogo">
             <div class="self-center">
               <div class="w-20 h-20 p-4">
                 <img alt="EffnerApp Logo" src="../assets/logo.png">
@@ -20,7 +20,7 @@
             <div>
               <div class="space-y-4">
                 <div class="block w-auto md:w-full break-words font-medium text-2xl md:text-7xl text-center md:text-inherit">
-                  <p>Nur für Android! yeyeye Was geht break</p>
+                  <p>Die EffnerApp!</p>
                 </div>
 
                 <div class="flex w-auto md:w-full">
@@ -32,7 +32,7 @@
                   </div>
                   <div class="w-auto md:w-64">
                     <a href="https://github.com/EffnerApp/EffnerApp">
-                      <img alt="Mach mit bei GitHub" class="drop-shadow" src="../assets/github_badge.png"/>
+                      <img alt="Mach mit bei GitHub" class="drop-shadow" :src="githubBadge"/>
                     </a>
                   </div>
                 </div>
@@ -42,7 +42,7 @@
             <div>
               <div class="flex justify-center">
                 <div>
-                  Hier coole bilder einfügen
+                  Slideshow
                 </div>
               </div>
             </div>
@@ -66,6 +66,25 @@ export default {
   name: 'Home',
   components: {
     Footer
+  },
+  data() {
+    return {
+      clickCount: 0
+    }
+  },
+  methods: {
+    clickLogo() {
+      this.clickCount++
+    }
+  },
+  computed: {
+    githubBadge() {
+      if(this.clickCount >= 10) {
+        return '../assets/github_badge_elephant.png'
+      }
+
+      return '../assets/github_badge.png'
+    }
   }
 }
 </script>
