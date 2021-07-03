@@ -42,7 +42,7 @@
             <div>
               <div class="flex justify-center">
                 <div>
-                  <Slideshow :slides="screenshots"/>
+                  Slideshow
                 </div>
               </div>
             </div>
@@ -68,6 +68,8 @@ import Screenshot2 from '../assets/screenshots/2.png'
 import Screenshot3 from '../assets/screenshots/3.png'
 import Screenshot4 from '../assets/screenshots/4.png'
 import Screenshot5 from '../assets/screenshots/5.png'
+import github_badge from "../assets/github_badge.png"
+import github_badge_elephant from "../assets/github_badge_elephant.png"
 
 export default {
   name: 'Home',
@@ -89,10 +91,10 @@ export default {
   computed: {
     githubBadge() {
       if(this.clickCount >= 10) {
-        return '../assets/github_badge_elephant.png'
+        return github_badge_elephant;
       }
 
-      return '../assets/github_badge.png'
+      return github_badge;
     }
   }
 }
