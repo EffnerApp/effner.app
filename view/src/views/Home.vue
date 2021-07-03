@@ -42,7 +42,7 @@
             <div>
               <div class="flex justify-center">
                 <div>
-                  Slideshow
+                  <Slideshow :slides="screenshots"/>
                 </div>
               </div>
             </div>
@@ -61,15 +61,24 @@
 
 <script>
 import Footer from "../components/Footer";
+import Slideshow from "../components/Slideshow";
+
+import Screenshot1 from '../assets/screenshots/1.png'
+import Screenshot2 from '../assets/screenshots/2.png'
+import Screenshot3 from '../assets/screenshots/3.png'
+import Screenshot4 from '../assets/screenshots/4.png'
+import Screenshot5 from '../assets/screenshots/5.png'
 
 export default {
   name: 'Home',
   components: {
-    Footer
+    Footer,
+    Slideshow
   },
   data() {
     return {
-      clickCount: 0
+      clickCount: 0,
+      screenshots: [Screenshot1, Screenshot2, Screenshot3, Screenshot4, Screenshot5]
     }
   },
   methods: {
