@@ -53,7 +53,7 @@
             </div>
 
             <div class="flex justify-center">
-              <div class="w-80 h-auto">
+              <div class="w-60 md:w-80 h-auto my-10 md:my-0">
                 <div>
                   <vueper-slides class="no-shadow" fade :arrowsOutside="true" :bulletsOutside="true" :autoplay="true" :touchable="false" :slide-ratio="16/9">
                     <vueper-slide
