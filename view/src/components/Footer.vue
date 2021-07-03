@@ -1,8 +1,9 @@
 <template>
   <div class="text-center">
-    <span ref="copyright" />
-    <span class="ml-10"><a href="https://go.effner.app/imprint">Impressum</a></span>
-    <span class="ml-10"><a href="https://go.effner.app/privacy">Datenschutz</a></span>
+    <span class="px-4" ref="copyright" />
+    <span class="pl-4 pr-3"><a class="underline" href="https://status.effner.app" target="_blank">Status</a></span>
+    <span class="px-3"><router-link class="underline" to="/imprint">Impressum</router-link></span>
+    <span class="px-3"><a class="underline" href="https://go.effner.app/privacy" target="_blank">Datenschutz</a></span>
   </div>
 </template>
 
