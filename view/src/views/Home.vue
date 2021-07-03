@@ -3,24 +3,37 @@
     <div class="container mx-auto">
       <div class="flex flex-col min-h-screen py-8 px-3 md:px-0">
         <div class="flex-none">
-          <div class="flex items-stretch w-20 md:w-48 h-20 bg-white rounded-full shadow-xl ml-5 md:ml-0" @click="clickLogo">
+          <div class="flex items-stretch w-20 md:w-48 h-20 bg-white rounded-full shadow-xl ml-5 md:ml-0"
+               @click="clickLogo">
             <div class="self-center">
               <div class="w-20 h-20 p-4">
                 <img alt="EffnerApp Logo" src="../assets/logo.png">
               </div>
             </div>
             <div class="invisible md:visible self-center font-medium text-xl pr-8">
-              <p>EffnerApp</p>
+              <p style="color: #3a3d3e;">EffnerApp</p>
             </div>
           </div>
         </div>
 
         <div class="flex-grow">
-          <div class="pt-24 md:pt-36 lg:pt-52 xl:pt-72 2xl:pt-80 grid md:grid-cols-2">
+          <!--          md:pt-36 lg:pt-52 xl:pt-72 2xl:pt-80-->
+          <div class="pt-24 grid md:grid-cols-2">
             <div>
-              <div class="space-y-4">
-                <div class="block w-auto md:w-full break-words font-medium text-2xl md:text-7xl text-center md:text-inherit">
-                  <p>Die EffnerApp!</p>
+              <div class="space-y-8">
+                <div
+                    class="block w-auto md:w-full break-words font-black text-2xl md:text-6xl ml-4">
+                  <p class="leading-tight" style="color: #3a3d3e;">Sei dabei.</p>
+                </div>
+
+                <div class="block w-auto md:w-full break-words text-xl rounded-lg ml-4">
+                  <p class="leading-tight" style="color: #3a3d3e;">
+                    Lade dir die EffnerApp jetzt im Play Store herunter und erhalte immer die neusten Informationen.
+                  </p>
+                  <br>
+                  <p class="leading-tight" style="color: #3a3d3e;">
+                    Wenn du Bock hast, hilf uns die App zu verbessern!
+                  </p>
                 </div>
 
                 <div class="flex w-auto md:w-full">
@@ -39,10 +52,18 @@
               </div>
             </div>
 
-            <div>
-              <div class="flex justify-center">
+            <div class="flex justify-center">
+              <div class="w-80 h-auto">
                 <div>
-                  Slideshow
+                  <vueper-slides fade :touchable="false" :slide-ratio="16/9">
+                    <vueper-slide
+                        v-for="(slide, i) in slides"
+
+                        :key="i"
+                        :image="slide.image"
+                        :title="slide.title"
+                        :content="slide.content"/>
+                  </vueper-slides>
                 </div>
               </div>
             </div>
@@ -51,7 +72,7 @@
 
         <div class="flex-none">
           <div class="flex justify-center">
-            <Footer/>
+            <Footer style="color: #3a3d3e;"/>
           </div>
         </div>
       </div>
@@ -60,27 +81,56 @@
 </template>
 
 <script>
-import Footer from "../components/Footer";
-import Slideshow from "../components/Slideshow";
+import {VueperSlides, VueperSlide} from 'vueperslides'
+import 'vueperslides/dist/vueperslides.css'
 
-import Screenshot1 from '../assets/screenshots/1.png'
-import Screenshot2 from '../assets/screenshots/2.png'
-import Screenshot3 from '../assets/screenshots/3.png'
-import Screenshot4 from '../assets/screenshots/4.png'
-import Screenshot5 from '../assets/screenshots/5.png'
+import Footer from "../components/Footer";
+
 import github_badge from "../assets/github_badge.png"
 import github_badge_elephant from "../assets/github_badge_elephant.png"
 
 export default {
   name: 'Home',
   components: {
-    Footer,
-    Slideshow
+    VueperSlides,
+    VueperSlide,
+    Footer
   },
   data() {
     return {
       clickCount: 0,
-      screenshots: [Screenshot1, Screenshot2, Screenshot3, Screenshot4, Screenshot5]
+      slides: [
+        {
+          title: 'title',
+          content: '',
+          image: require('../assets/screenshots/1.png')
+
+        },
+        {
+          title: 'title',
+          content: '',
+          image: require('../assets/screenshots/2.png')
+
+        },
+        {
+          title: 'title',
+          content: '',
+          image: require('../assets/screenshots/3.png')
+
+        },
+        {
+          title: 'title',
+          content: '',
+          image: require('../assets/screenshots/4.png')
+
+        },
+        {
+          title: 'title',
+          content: '',
+          image: require('../assets/screenshots/5.png')
+
+        }
+      ]
     }
   },
   methods: {
@@ -90,7 +140,7 @@ export default {
   },
   computed: {
     githubBadge() {
-      if(this.clickCount >= 10) {
+      if (this.clickCount >= 10) {
         return github_badge_elephant;
       }
 
@@ -103,6 +153,11 @@ export default {
 <style scoped>
 .drop-shadow {
   filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.4));
+}
+
+.gradient_pride {
+
+  background: linear-gradient(135deg, hsla(186, 100%, 69%, 0.5) 0%, hsla(217, 100%, 50%, 0.5) 100%);
 }
 
 </style>
