@@ -1,8 +1,8 @@
 <template>
   <div class="text-center">
     <span ref="copyright" />
-    <span class="ml-10"><router-link to="/imprint">Impressum</router-link></span>
-    <span class="ml-10"><router-link to="/privacy">Datenschutz</router-link></span>
+    <span class="ml-10"><a href="https://go.effner.app/imprint">Impressum</a></span>
+    <span class="ml-10"><a href="https://go.effner.app/privacy">Datenschutz</a></span>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   name: "Footer",
   mounted() {
-    this.$refs.copyright.textContent = '© ' + new Date().getFullYear() + ' EffnerApp'
+    this.$refs.copyright.textContent = '© ' + new Date().getFullYear() + ' EffnerApp with ❤️ by Sebi & Luis'
   }
 }
 </script>
@@ -18,3 +18,4 @@ export default {
 <style scoped>
 
 </style>
+

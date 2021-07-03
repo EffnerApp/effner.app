@@ -32,7 +32,7 @@
                   </p>
                   <br>
                   <p class="leading-tight" style="color: #3a3d3e;">
-                    Wenn du Bock hast, hilf uns die App zu verbessern!
+                    Oder schau dir den Code an und hilf uns die App zu verbessern!
                   </p>
                 </div>
 
@@ -55,14 +55,11 @@
             <div class="flex justify-center">
               <div class="w-80 h-auto">
                 <div>
-                  <vueper-slides fade :touchable="false" :slide-ratio="16/9">
+                  <vueper-slides class="no-shadow" fade :arrowsOutside="true" :bulletsOutside="true" :autoplay="true" :touchable="false" :slide-ratio="16/9">
                     <vueper-slide
                         v-for="(slide, i) in slides"
-
                         :key="i"
-                        :image="slide.image"
-                        :title="slide.title"
-                        :content="slide.content"/>
+                        :image="slide.image"/>
                   </vueper-slides>
                 </div>
               </div>
@@ -101,34 +98,26 @@ export default {
       clickCount: 0,
       slides: [
         {
-          title: 'title',
-          content: '',
-          image: require('../assets/screenshots/1.png')
+          image: require('../assets/screenshots/screen_home.png')
 
         },
         {
-          title: 'title',
-          content: '',
-          image: require('../assets/screenshots/2.png')
+          image: require('../assets/screenshots/screen_subs.png')
 
         },
         {
-          title: 'title',
-          content: '',
-          image: require('../assets/screenshots/3.png')
+          image: require('../assets/screenshots/screen_exams.png')
 
         },
         {
-          title: 'title',
-          content: '',
-          image: require('../assets/screenshots/4.png')
+          image: require('../assets/screenshots/screen_mvv.png')
 
         },
         {
-          title: 'title',
-          content: '',
-          image: require('../assets/screenshots/5.png')
-
+          image: require('../assets/screenshots/screen_timetable.png')
+        },
+        {
+          image: require('../assets/screenshots/screen_settings.png')
         }
       ]
     }
@@ -154,10 +143,4 @@ export default {
 .drop-shadow {
   filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.4));
 }
-
-.gradient_pride {
-
-  background: linear-gradient(135deg, hsla(186, 100%, 69%, 0.5) 0%, hsla(217, 100%, 50%, 0.5) 100%);
-}
-
 </style>
