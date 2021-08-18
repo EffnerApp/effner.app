@@ -13,6 +13,11 @@ const routes = [
     path: '/imprint',
     name: 'Impressum',
     component: () => import('../views/Imprint')
+  },
+  {
+    path: '/privacy',
+    name: 'Datenschutzerklärung',
+    component: () => import('../views/Privacy')
   }
 ]
 
