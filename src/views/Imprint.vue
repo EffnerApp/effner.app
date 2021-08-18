@@ -12,7 +12,7 @@
 
     <div class="pt-6 pb-12 grid md:grid-cols-2">
       <div class="space-y-8">
-        <div class="ml-4 space-y-8">
+        <div class="md:ml-4 space-y-8">
           <table class="table-auto border-collapse border border-black">
             <tbody>
             <tr>
@@ -57,6 +57,7 @@
           </table>
         </div>
       </div>
+
       <div>
         <div
             class="block w-auto md:w-full break-words font-black text-2xl md:text-xl pb-4">

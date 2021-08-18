@@ -18,6 +18,11 @@ const routes = [
     path: '/privacy',
     name: 'Datenschutzerklärung',
     component: () => import('../views/Privacy')
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "PageNotFound",
+    component: () => import('../views/PageNotFound')
   }
 ]
 
