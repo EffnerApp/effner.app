@@ -115,9 +115,9 @@
             class="block w-auto md:w-full break-words font-black text-2xl md:text-xl">
           <p class="leading-tight" style="color: #3a3d3e;">Technische Umsetzung</p>
         </div>
-        <p>Unsere Server werden durch Hetzner Online GmbH betrieben. Die von Ihnen im Rahmen der Benutzung der
+        <p>Unsere Server werden durch Hetzner Online GmbH und Contabo GmbH betrieben. Die von Ihnen im Rahmen der Benutzung der
           Applikation
-          erfassten personenbezogenen Daten werden daher durch diesen Auftragsverarbeiter in unserem Auftrag
+          erfassten personenbezogenen Daten werden daher durch diese Auftragsverarbeiter in unserem Auftrag
           verarbeitet.
         </p>
         <div
