@@ -52,7 +52,7 @@
               class="block w-auto md:w-full break-words font-black text-2xl md:text-xl">
             <p class="leading-tight" style="color: #3a3d3e;">Dauer der Speicherung der personenbezogenen Daten</p>
           </div>
-          <p>Ihre Daten werden nur solange gespeichert, wie dies unter Beachtung gesetzlicher Aufbewahrungsfristen zur
+          <p>Ihre Daten werden nur so lange gespeichert, wie dies unter Beachtung gesetzlicher Aufbewahrungsfristen zur
             Aufgabenerf&uuml;llung erforderlich ist. <br>
           </p>
           <div
@@ -75,7 +75,7 @@
               gegebenenfalls ein Recht auf Daten&uuml;bertragung&nbsp;zu (Art. 20 DSGVO).
             </li>
             <li class="py-2">
-              Sie k&ouml;nnen Ihre Einwilligung in die Verarbeitung von Daten jederzeit f&uuml;r die Zukunft widerrufen.
+              Sie k&ouml;nnen Ihre Einwilligung zur Verarbeitung von Daten jederzeit f&uuml;r die Zukunft widerrufen.
               Die Rechtm&auml;&szlig;igkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Datenverarbeitung
               wird durch diesen Widerruf nicht ber&uuml;hrt.
             </li>
@@ -115,7 +115,7 @@
             class="block w-auto md:w-full break-words font-black text-2xl md:text-xl">
           <p class="leading-tight" style="color: #3a3d3e;">Technische Umsetzung</p>
         </div>
-        <p>Unsere Server werden durch Hetzner Online GmbH und Contabo GmbH betrieben. Die von Ihnen im Rahmen der Benutzung der
+        <p>Unsere Server werden durch netcup GmbH betrieben. Die von Ihnen im Rahmen der Benutzung der
           Applikation
           erfassten personenbezogenen Daten werden daher durch diese Auftragsverarbeiter in unserem Auftrag
           verarbeitet.
@@ -127,11 +127,6 @@
         </div>
         <p>Folgende Drittanbieter-Dienste werden von unserer Applikation verwendet:</p>
         <ul class="list-disc ml-8">
-          <li><a class="underline" href="https://firebase.google.com/policies/analytics" target="_blank">Firebase
-            Analytics/ Crashlytics</a>&nbsp;(Hilft uns die Stabilit&auml;t der App zu gew&auml;hrleisten, indem Fehler
-            und
-            Abst&uuml;rze protokolliert werden)
-          </li>
           <li><a class="underline" href="https://policies.google.com/privacy" target="_blank">Google Play Services</a>
           </li>
         </ul>
@@ -148,9 +143,6 @@
           <li><a class="underline" href="https://effner.de/service/impressum/datenschutz" target="_blank">effner.de
             &ndash; Website des Josef-Effner-Gymnasiums</a>
           </li>
-          <li><a class="underline" href="https://www.mvv-muenchen.de/" target="_blank">M&uuml;nchner Verkehrs- und
-            Tarifverbund</a>
-          </li>
         </ul>
         <p></p>
         <div
@@ -158,19 +150,17 @@
           <p class="leading-tight" style="color: #3a3d3e;">Protokollierung</p>
         </div>
         <p>Bei der Verwendung der Applikation werden von Ihrem Endger&auml;t Daten an unseren Server &uuml;bermittelt.
-          Die
-          folgenden Daten werden w&auml;hrend einer laufenden Verbindung zur Kommunikation zwischen Ihrem Endger&auml;t
+          Die folgenden Daten werden w&auml;hrend einer laufenden Verbindung zur Kommunikation zwischen Ihrem Endger&auml;t
           und unserem Server aufgezeichnet:
         </p>
         <ul class="list-disc ml-8">
           <li>Datum und Uhrzeit der Anforderung</li>
-          <li>Name der angeforderten Datei/ des Zugriffspunkts
-          </li>
+          <li>Name der angeforderten Datei/ des Zugriffspunkts</li>
           <li>Zugriffsstatus (Datei &uuml;bertragen, Datei nicht gefunden, etc.)</li>
           <li>vollst&auml;ndige IP-Adresse des anfordernden Rechners</li>
         </ul>
         <p></p>
-        <p>Aus Gr&uuml;nden der technischen Sicherheit, insbesondere zur Abwehr von Zugriffsversuchen auf unsere
+        <p>Aus Gr&uuml;nden der technischen Sicherheit, insbesondere zur Abwehr von Angriffen auf unsere
           Netzinfrastruktur, werden diese Daten von uns gespeichert und nach sieben Tagen automatisch gel&ouml;scht.
         </p>
       </div>
