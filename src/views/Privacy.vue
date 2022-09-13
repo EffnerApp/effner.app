@@ -6,7 +6,7 @@
         <p class="leading-tight" style="color: #3a3d3e;">Datenschutzerklärung der EffnerApp</p>
       </div>
       <div class="pt-2">
-        <p class="leading-tight">(Stand: 11. September 2021)</p>
+        <p class="leading-tight">(Stand: 12. September 2022)</p>
       </div>
     </div>
     <div class="pt-6 pb-12 grid md:grid-cols-2">
