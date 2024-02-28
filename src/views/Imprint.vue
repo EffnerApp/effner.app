@@ -65,7 +65,6 @@
         </div>
 
         <div class="block w-auto md:w-full break-words text-md">
-          <p class="leading-tight" style="color: #3a3d3e;">
           <p>
             Alle in dieser Anwendung bereitgestellten Informationen haben wir nach bestem Wissen und Gewissen
             erarbeitet und geprüft. Eine Gewähr für die jederzeitige Aktualität, Richtigkeit,
@@ -81,6 +80,7 @@
             Herunterladen von Daten durch Schadsoftware oder der Installation oder Nutzung von Software verursacht
             werden, übernehmen wir keine Haftung.
           </p>
+
 
         </div>
       </div>

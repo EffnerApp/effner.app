@@ -1,6 +1,6 @@
 {
   "name": "effner.app",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -12,21 +12,19 @@
     "core-js": "^3.16.2",
     "vue": "^2.6.14",
     "vue-router": "^3.5.2",
-    "vueperslides": "^2.15.2"
+    "vueperslides": "^2.16.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.13",
-    "@vue/cli-plugin-eslint": "~4.5.13",
-    "@vue/cli-plugin-router": "~4.5.13",
-    "@vue/cli-service": "~4.5.13",
-    "autoprefixer": "^9.8.6",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^7.16.0",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-router": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.22.0",
     "postcss": "^8.2.13",
-    "postcss-loader": "^4.0.3",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4",
-    "vue-cli-plugin-tailwind": "^2.0.6",
+    "postcss-loader": "^8.1.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "vue-cli-plugin-tailwind": "^3.0.0",
     "vue-template-compiler": "^2.6.14"
   }
 }
