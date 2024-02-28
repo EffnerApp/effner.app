@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="pt-24 pb-12 ml-4">
+    <div class="pt-12 pb-12 ml-4">
       <div
           class="block w-auto md:w-full break-words font-black text-2xl md:text-5xl">
         <p class="leading-tight" style="color: #3a3d3e;">Impressum der EffnerApp</p>
       </div>
       <div class="pt-2">
-        <p class="leading-tight">(Stand: 22. Juni 2021)</p>
+        <p class="leading-tight">(Stand: 28. Februar 2024)</p>
       </div>
     </div>
 
@@ -16,41 +16,40 @@
           <table class="table-auto border-collapse border border-black">
             <tbody>
             <tr>
-              <td class="border border-black p-4 font-medium">Herausgeber:</td>
+              <td class="border border-black p-4 font-medium">Betreiber:</td>
               <td class="border border-black p-4">
-                <p>Josef-Effner-Gymnasium Dachau</p>
-                <p>Erich-Ollenhauer-Str. 12<br>85221 Dachau</p>
+                <p>Luis Bros - Softwareentwicklung</p>
+                <p>Allmandring 24B<br>70569 Stuttgart</p>
                 <br>
-                <p>Telefon: 08131/66647 0<br>Telefax: 08131/66647 11</p>
+                <p>Telefon: +49 176 57952141 <b>(Kein Support unter dieser Nummer)</b></p>
                 <br>
-                <p>E-Mail: <a class="underline" href="mailto:verwaltung@effner.de">verwaltung@effner.de</a></p>
-                <p>Internet: <a class="underline" href="https://effner.de" target="_blank">effner.de</a></p>
+                <p>E-Mail: <a class="underline" href="mailto:info@effner.app">info@effner.app</a></p>
               </td>
             </tr>
             <tr>
               <td class="border border-black p-4 font-medium">Entwickler:</td>
               <td class="border border-black p-4">
                 <p>Sebastian Müller</p>
-                <p>Telefon: +49 176 52327504</p>
-                <p>E-Mail: <a class="underline" href="mailto:sebi@effner.app">sebi@effner.app</a></p>
+                <p>Telefon: +49 176 52327504 <b>(Kein Support unter dieser Nummer)</b></p>
+                <p>E-Mail: <a class="underline" href="mailto:info@effner.app">info@effner.app</a></p>
                 <br>
                 <p>Luis Bros</p>
-                <p>Telefon: +49 176 57952141</p>
-                <p>E-Mail: <a class="underline" href="mailto:luis@effner.app">luis@effner.app</a></p>
+                <p>Telefon: +49 176 57952141 <b>(Kein Support unter dieser Nummer)</b></p>
+                <p>E-Mail: <a class="underline" href="mailto:info@effner.app">info@effner.app</a></p>
               </td>
             </tr>
             <tr>
               <td class="border border-black p-4 font-medium">Datenschutzbeauftragter:</td>
               <td class="border border-black p-4">
-                <p>Jonathan Berger</p>
-                <p>Telefon: +49 1514 0192341</p>
-                <p>E-Mail: <a class="underline" href="mailto:datenschutz@effner.app">datenschutz@effner.app</a></p>
+                <p>Luis Bros</p>
+                <p>Telefon: +49 176 57952141 <b>(Kein Support unter dieser Nummer)</b></p>
+                <p>E-Mail: <a class="underline" href="mailto:info@effner.app">info@effner.app</a></p>
               </td>
             </tr>
             <tr>
-              <td class="border border-black p-4 font-medium">Verantwortlich für den Inhalt:</td>
+              <td class="border border-black p-4 font-medium">Verantwortlich für den von der Schule bereitgestellten Inhalt:</td>
               <td class="border border-black p-4">
-                <p>Oberstudiendirektor Peter Mareis</p>
+                <p>Oberstudiendirektor Peter Mareis<br>Josef-Effner-Gymnasium Dachau</p>
               </td>
             </tr>
             </tbody>
@@ -58,7 +57,7 @@
         </div>
       </div>
 
-      <div>
+      <div class="pl-8">
         <div
             class="block w-auto md:w-full break-words font-black text-2xl md:text-xl pb-4">
           <p class="leading-tight" style="color: #3a3d3e;">Haftungsausschluss</p>

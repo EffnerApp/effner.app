@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="pt-24 pb-12 ml-4">
+    <div class="pt-12 pb-12 ml-4">
       <div
           class="block w-auto md:w-full break-words font-black text-2xl md:text-5xl">
         <p class="leading-tight" style="color: #3a3d3e;">Datenschutzerklärung der EffnerApp</p>
       </div>
       <div class="pt-2">
-        <p class="leading-tight">(Stand: 12. September 2022)</p>
+        <p class="leading-tight">(Stand: 28. Februar 2024)</p>
       </div>
     </div>
     <div class="pt-6 pb-12 grid md:grid-cols-2">
@@ -20,21 +20,11 @@
               class="block w-auto md:w-full break-words font-black text-2xl md:text-xl">
             <p class="leading-tight" style="color: #3a3d3e;">Name und Kontaktdaten des Verantwortlichen</p>
           </div>
-          <p>Josef-Effner-Gymnasium <br>
-            Erich-Ollenhauer-Str. 12<br>
-            85221 Dachau<br>
-            Telefon: 08131/66647 0<br>
-            E-Mail: <a class="underline" href="mailto:verwaltung@effner.de">verwaltung@effner.de</a>
-          </p>
-          <div
-              class="block w-auto md:w-full break-words font-black text-2xl md:text-xl">
-            <p class="leading-tight" style="color: #3a3d3e;">Kontaktdaten des Datenschutzbeauftragten</p>
-          </div>
-          <p>Jonathan Berger<br>
-            Donauschwabenweg 28<br>
-            85221 Dachau<br>
-            Telefon: 0151/40192341<br>
-            E-Mail: <a class="underline" href="mailto:datenschutz@effner.app">datenschutz@effner.app</a>
+          <p>Luis Bros - Softwareentwicklung <br>
+            Allmandring 24B<br>
+            70569 Stuttgart<br>
+            Telefon: +49 176 57952141 <b>(Kein Support unter dieser Nummer)</b><br>
+            E-Mail: <a class="underline" href="mailto:info@effner.app">info@effner.app</a>
           </p>
           <div
               class="block w-auto md:w-full break-words font-black text-2xl md:text-xl">
@@ -42,7 +32,7 @@
               Daten</p>
           </div>
           <p>
-            Wir verarbeiten personenbezogene Daten zur Nachverfolgung unsachgem&auml;&szlig;er Verwendung der Effnerapp.
+            Wir verarbeiten personenbezogene Daten zur Nachverfolgung unsachgem&auml;&szlig;er Verwendung der EffnerApp.
           </p>
           <p>Die Rechtsgrundlage f&uuml;r die Verarbeitung Ihrer Daten ergibt sich, soweit im Folgenden nichts anderes
             angegeben ist, aus Artikel 6 Absatz 1 (EU-DSGVO).

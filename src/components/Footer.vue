@@ -12,7 +12,7 @@
 export default {
   name: "Footer",
   mounted() {
-    this.$refs.copyright.textContent = '© ' + new Date().getFullYear() + ' EffnerApp von Sebi & Luis'
+    this.$refs.copyright.textContent = '© ' + new Date().getFullYear() + ' EffnerApp von Sebastian Müller & Luis Bros'
   }
 }
 </script>
