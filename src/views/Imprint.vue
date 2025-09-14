@@ -6,7 +6,7 @@
         <p class="leading-tight" style="color: #3a3d3e;">Impressum der EffnerApp</p>
       </div>
       <div class="pt-2">
-        <p class="leading-tight">(Stand: 28. Februar 2024)</p>
+        <p class="leading-tight">(Stand: 14. September 2025)</p>
       </div>
     </div>
 
@@ -19,7 +19,7 @@
               <td class="border border-black p-4 font-medium">Betreiber:</td>
               <td class="border border-black p-4">
                 <p>Luis Bros - Softwareentwicklung</p>
-                <p>Allmandring 24B<br>70569 Stuttgart</p>
+                <p>Karl-Witthalm-Straße 24<br>81375 München</p>
                 <br>
                 <p>Telefon: +49 176 57952141 <b>(Kein Support unter dieser Nummer)</b></p>
                 <br>
