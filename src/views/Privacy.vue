@@ -6,7 +6,7 @@
         <p class="leading-tight" style="color: #3a3d3e;">Datenschutzerklärung der EffnerApp</p>
       </div>
       <div class="pt-2">
-        <p class="leading-tight">(Stand: 28. Februar 2024)</p>
+        <p class="leading-tight">(Stand: 14. September 2025)</p>
       </div>
     </div>
     <div class="pt-6 pb-12 grid md:grid-cols-2">
@@ -21,8 +21,8 @@
             <p class="leading-tight" style="color: #3a3d3e;">Name und Kontaktdaten des Verantwortlichen</p>
           </div>
           <p>Luis Bros - Softwareentwicklung <br>
-            Allmandring 24B<br>
-            70569 Stuttgart<br>
+            Karl-Witthalm-Straße 24<br>
+            81375 München<br>
             Telefon: +49 176 57952141 <b>(Kein Support unter dieser Nummer)</b><br>
             E-Mail: <a class="underline" href="mailto:info@effner.app">info@effner.app</a>
           </p>
