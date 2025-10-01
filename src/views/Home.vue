@@ -1,5 +1,5 @@
 <template>
-  <div class="grid md:grid-cols-2">
+  <div class="h-full grid md:grid-cols-2">
     <div class="pt-12">
         <div class="space-y-8">
           <div

@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-gradient-to-tr from-pink-300 via-purple-300 to-indigo-400">
-    <div class="container">
-      <div class="flex flex-col">
+  <div class="min-h-full bg-gradient-to-tr from-pink-300 via-purple-300 to-indigo-400">
+    <div class="h-full">
+      <div class="h-full flex flex-col">
         <div class="p-8">
           <div class="flex-none">
             <Header/>

@@ -30,7 +30,7 @@
               <td class="border border-black p-4 font-medium">Entwickler:</td>
               <td class="border border-black p-4">
                 <p>Sebastian Müller</p>
-                <p>Telefon: +49 176 52327504 <b>(Kein Support unter dieser Nummer)</b></p>
+                <p>Telefon: +49 1515 9461360 <b>(Kein Support unter dieser Nummer)</b></p>
                 <p>E-Mail: <a class="underline" href="mailto:info@effner.app">info@effner.app</a></p>
                 <br>
                 <p>Luis Bros</p>
@@ -49,7 +49,7 @@
             <tr>
               <td class="border border-black p-4 font-medium">Verantwortlich für den von der Schule bereitgestellten Inhalt:</td>
               <td class="border border-black p-4">
-                <p>Oberstudiendirektor Peter Mareis<br>Josef-Effner-Gymnasium Dachau</p>
+                <p>Oberstudiendirektor Peter Mareis<br>Josef-Effner-Gymnasium Dachau<br>Erich-Ollenhauer-Straße 12, 85221 Dachau</p>
               </td>
             </tr>
             </tbody>
