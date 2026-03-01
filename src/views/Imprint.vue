@@ -29,13 +29,11 @@
             <tr>
               <td class="border border-black p-4 font-medium">Entwickler:</td>
               <td class="border border-black p-4">
-                <p>Sebastian Müller</p>
-                <p>Telefon: +49 1515 9461360 <b>(Kein Support unter dieser Nummer)</b></p>
-                <p>E-Mail: <a class="underline" href="mailto:info@effner.app">info@effner.app</a></p>
+                <p>Luna Müller</p>
+                <p>E-Mail: <a class="underline" href="mailto:luna@effner.app">luna@effner.app</a></p>
                 <br>
                 <p>Luis Bros</p>
-                <p>Telefon: +49 176 57952141 <b>(Kein Support unter dieser Nummer)</b></p>
-                <p>E-Mail: <a class="underline" href="mailto:info@effner.app">info@effner.app</a></p>
+                <p>E-Mail: <a class="underline" href="mailto:luis@effner.app">luis@effner.app</a></p>
               </td>
             </tr>
             <tr>
@@ -43,7 +41,7 @@
               <td class="border border-black p-4">
                 <p>Luis Bros</p>
                 <p>Telefon: +49 176 57952141 <b>(Kein Support unter dieser Nummer)</b></p>
-                <p>E-Mail: <a class="underline" href="mailto:info@effner.app">info@effner.app</a></p>
+                <p>E-Mail: <a class="underline" href="mailto:datenschutz@effner.app">datenschutz@effner.app</a></p>
               </td>
             </tr>
             <tr>
